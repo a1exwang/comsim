@@ -1,0 +1,9 @@
+{
+  "name": "game1",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "mathjs": "^5.0.0",
+    "numjs": "^0.16.0"
+  }
+}

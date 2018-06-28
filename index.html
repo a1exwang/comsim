@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="node_modules/mathjs/dist/math.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="tipped-4.6.1-light/js/tipped/tipped.js"></script>
+    <link rel="stylesheet" href="tipped-4.6.1-light/css/tipped/tipped.css" />
+    <style rel="stylesheet">
+    </style>
 </head>
 <body>
 
-<table id="table">
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Private Properties</th>
-        <th>Abilities</th>
-        <th>Needs</th>
-        <th>Role</th>
-    </tr>
-    </thead>
-    <tbody>
-    </tbody>
+<button id="btnNext">Next</button>
+<p>Actions</p>
+<div id="actions">
+</div>
+
+<table id="matrixTable">
+</table>
+<table id="statusTable">
 </table>
 
-<button onclick="game.nextRound()">Next</button>
 
-<script src="game.js"></script>
+
+<script src="table.js"></script>
 </body>
+
 </html>
